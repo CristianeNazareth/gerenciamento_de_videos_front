@@ -1,0 +1,21 @@
+
+
+.footer {
+/* color: #F7834A; */
+
+  color:  #64BCE6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.footer__paragraph {
+  margin: 10px, 5px;
+  /* padding: 25px, 25px; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+}

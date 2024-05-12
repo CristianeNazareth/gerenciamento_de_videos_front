@@ -1,0 +1,13 @@
+
+
+.text {
+
+  color: #ffff;
+  /* padding-left: 20px; */
+  margin-top: 4rem;
+}
+
+.text__text {
+  /* color: #ffff; */
+  text-align: center;
+}
