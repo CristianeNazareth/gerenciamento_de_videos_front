@@ -10,18 +10,22 @@ const Formulary = () => {
       <form id="addVideo" className="formularyVideo" method="post">
 
         <Header />
-        <div>
-          <label htmlFor="fieldName">Nome: </label>
-          <input className="fieldName" type="text" />
-        </div>
-        <div>
-          <label htmlFor="fieldVideoUrl" aria-placeholder="Insira a url do seu video">Insira a url do seu video: </label>
-          <input type="text" id="fieldVideoUrl" className="fieldVideoUrl" placeholder="Compatível com youtub, vimeo e dailymention" pattern="https?://.+"></input>
-        </div>
-        <div>
-          <label htmlFor="fieldDuration">Duração: </label>
-          <input type="number" />
-        </div>
+
+        <fieldset className="area">
+          <legend>Dados do video</legend>
+          <div className="field">
+            <label htmlFor="fieldName">Nome: </label>
+            <input className="fieldName" type="text" />
+          </div>
+          <div className="field">
+            <label htmlFor="fieldVideoUrl" aria-placeholder="Insira a url do seu video">Insira a url do seu video: </label>
+            <input type="text" id="fieldVideoUrl" className="fieldVideoUrl" placeholder="Compatível com youtub, vimeo e dailymontion" pattern="https?://.+"></input>
+          </div>
+          <div className="field">
+            <label htmlFor="fieldDuration">Duração: </label>
+            <input type="number" className="fieldDuration"></input>
+          </div>
+        </fieldset>
         <Button />
       </form>
 

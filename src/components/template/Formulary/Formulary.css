@@ -14,11 +14,11 @@
 background-color: #002E47;
   color: #F7834A;
 /* color: #64BCE6; */
+display: flex;
 
-  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   /* border: red; */
   font-family: Arial, Helvetica, sans-serif;
   /* border-radius: 1.6rem; */
@@ -26,38 +26,46 @@ background-color: #002E47;
 
 }
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* padding-left: 2rem ; */
   font-family: Arial, Helvetica, sans-serif;
   /* margin-bottom: 3rem; */
   padding-bottom: 3rem;
-  /* padding-bottom: 2.5rem; */
 }
 
 .formularyVideo {
-  width: 450px;
-  /* border-radius: 1.5em; */
+  /* width: 600px; */
   border-radius: 1.6em;
 
 }
 
+.area,label {
 
-
-
-
-
-
-
-
-.entrada {
-  width: 98%;
-  padding: 0.7rem 1.1rem;
-  margin: 10px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  margin-bottom: 10px;
+  /* margin-right: 10rem; */
 }
-#situacao, #sexo, #raca {
-  font-size: 15px;
-  padding: 5px;
+
+.fieldName, .fieldVideoUrl, .fieldDuration {
+  width: 545px;
+  height: 8px;
+  padding: 0.5rem;
 }
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+

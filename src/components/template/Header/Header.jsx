@@ -5,8 +5,8 @@ const Header = () => {
   return (
 
     <div>
-      <h1 className="text">Interação de videos favoritos</h1>
-      <h3 className="text__text">Gerencie videos</h3>
+      <h1 className="text">Interagindo com seus Videos Favoritos</h1>
+      <h3 className="text__text">Gerencie sua Lista de Videos</h3>
     </div>
 
 
