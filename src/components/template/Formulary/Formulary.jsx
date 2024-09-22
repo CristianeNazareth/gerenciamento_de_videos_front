@@ -17,7 +17,7 @@ const Formulary = () => {
     const video = { title, url, duration };
 
 
-    const apiUrl = process.env.REACT_API_URL;
+    const apiUrl = process.env.REACT_APP_API_URL;
 
     try {
       // const response = await fetch('http://localhost:3333/videos',
