@@ -6,9 +6,11 @@ const VideoList = () => {
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
+    const apiUrl = process.env.REACT_API_URL
     const fetchVideos = async () => {
       try {
-        const response = await fetch('http://localhost:3333/videos');
+        // const response = await fetch('http://localhost:3333/videos');
+        const response = await fetch(`${apiUrl}/videos`);
         const data = await response.json();
         setVideos(data);
       } catch (error) {
